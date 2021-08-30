@@ -1,0 +1,15 @@
+.vscode
+.idea
+node_modules
+.DS_Store
+dist
+*.local
+.history
+.husky
+lib
+/es/
+es
+yarn-error.log
+lerna-debug.json
+lerna-debug.log
+yarn-error.log

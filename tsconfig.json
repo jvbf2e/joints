@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "joints": ["packages/*"],
+      "joints/es/*": ["packages/*"]
+    },
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "noLib": false,
+    "target": "es6",
+    "sourceMap": true,
+    "lib": ["ESNext", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "packages/*",
+    "packages/**/*.vue",
+    "packages/**/*.tsx",
+    "packages/**/*.jsx",
+    "packages/**/*.ts",
+    "packages/**/*.js"
+  ],
+  "exclude": ["node_modules"]
+}
